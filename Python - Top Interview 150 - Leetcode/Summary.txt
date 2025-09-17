@@ -4,6 +4,7 @@
   Một số hàm đặc biệt:
     "x".join(arr): dùng để nối các phần tử của mảng arr thành 1 chuỗi, ngăn cách bằng "x".
     Counter(x): Trả về một dictionary đặc biệt {element: count}, kdl Counter. Ex: c = Counter([1,2,2,3,3,3]) -> c = Counter({3: 3, 2: 2, 1: 1})
+    .get(): thường dùng với dictionary. Ex: dict.get(key, default_value): trả về dict[key], nếu không có trả về default value
 - Sliding window = two pointer + “cửa sổ liên tiếp”
   Mấu chốt nhận dạng sliding window:
       Subarray/substring liên tiếp.
