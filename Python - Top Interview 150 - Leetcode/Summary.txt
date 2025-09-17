@@ -1,1 +1,5 @@
-
+- Sliding window = two pointer + “cửa sổ liên tiếp”
+  Mấu chốt nhận dạng sliding window:
+      Subarray/substring liên tiếp.
+      Có điều kiện dạng tổng, độ dài, số lượng, max/min…
+      Có thể co/giãn đầu/tail để thỏa điều kiện.
