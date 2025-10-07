@@ -10,3 +10,5 @@
       Subarray/substring liên tiếp.
       Có điều kiện dạng tổng, độ dài, số lượng, max/min…
       Có thể co/giãn đầu/tail để thỏa điều kiện.
+- Interval: Sau khi sắp xếp các mảng (ví dụ list.sort(key = lambda x : (x[0], x[1])) để sắp xếp theo x[0] rồi x[1]),
+            hãy để ý list[i][1] và list[i+1][0]
